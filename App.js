@@ -18,7 +18,7 @@ function MyStack() {
       screenOptions={{
         headerTitleAlign: 'center',
         headerStyle: {
-          backgroundColor: '#3740FE',
+          backgroundColor: '#b4ede2',
         },
         headerTintColor: '#fff',
         headerTitleStyle: {

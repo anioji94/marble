@@ -106,7 +106,7 @@ render() {
       />
 
        <Button
-          color="#3740FE"
+          color="#b4ede2"
           title="About"
           onPress={() => this.props.navigation.navigate('About')}
         />
