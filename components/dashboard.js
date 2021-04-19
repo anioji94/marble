@@ -56,7 +56,7 @@ handleAddMarble = (activity, cost) => {
   this.setState({ marbles: [...this.state.marbles, {date: date, activity: activity, cost: costInt}] }, function() {
     this.storeMarble();
   })
-  this.add_marble_animation.play(20, 63)
+  // this.add_marble_animation.play(20, 63)
 }
 storeMarble() {
   const user = firebase.auth().currentUser
@@ -83,7 +83,7 @@ render() {
     <View style={styles.container}>
 			
       <Text style={styles.title}>Marble</Text>
-
+{/* 
 			<LottieView
             autoPlay={false}
 						loop={false}
@@ -92,7 +92,7 @@ render() {
             }}
 						style={styles.jar}
             source={require('../assets/animations/add-marble-gold.json')}
-          />
+          /> */}
       <Text style={styles.jarValue}>Jar Value: £ {(this.state.jarValue).toFixed(2)}</Text>
       <MarbleInput onSubmit={this.handleAddMarble}/>
       <Text style={styles.recentMarblesHeading}>{recentHeading}</Text>
@@ -105,11 +105,19 @@ render() {
        }}
       />
 
-      <Button
+       <Button
+          color="#3740FE"
+          title="About"
+          onPress={() => this.props.navigation.navigate('About')}
+        />
+
+     
+
+      {/* <Button
           color="#3740FE"
           title="Logout"
           onPress={() => this.signOut()}
-        />
+        /> */}
 
     </View>
     </KeyboardAvoidingView>
