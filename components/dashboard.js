@@ -99,6 +99,22 @@ storeMarble() {
   this.playSound()
 }
 
+emptyJar() {
+  const user = firebase.auth().currentUser
+  this.setState({isLoading: true,});
+  this.dbRef.doc(user.email).set({
+    uid: user.email,
+    marbleValue: 0,
+    marbles: [],
+  }).then((res) => {
+    this.setState({
+      isLoading: false,    
+    });
+  })
+  this.add_marble_animation.play(20, 63);
+  this.playSound()
+}
+
 
 render() {
   const { marbles } = this.state;
@@ -130,7 +146,7 @@ render() {
       <ScrollView horizontal={false}>
       <ScrollView horizontal={true}>
     <View style={styles.container}>
-			
+			<Button title="Empty Jar" onPress={this.emptyJar}></Button>
 
 			<LottieView
             autoPlay={false}
