@@ -54,9 +54,15 @@ We decided on React Native as a front end framework to create a cross platform(i
 
 We decided on Firebase as a lightweight cloud solution for our back end. We liked the idea of learning as much as possible within the scope of our project, so using an entirely new way of storing data seemed like a fun and challenging way to achieve this goal.
 
+<img width="100" alt="File:Adobe After Effects CC icon.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/616px-Adobe_After_Effects_CC_icon.svg.png">
+
+We wanted to bring home the feeling of accomplishment with every new marble so we created a custom animation using Adobe After Effects. We then used the Bodymovin' plugin to convert the After Effects project into a JSON file which we could work with
+
+<img height="100" alt="Bodymovin logo" src="https://aescripts.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/2/1240x496_shadow_tn.png">
+
 <img width="500" alt="Screenshot 2021-04-22 at 12 57 15" src="https://drawer.design/wp-content/uploads/2020/03/everything-you-need-to-know-about-lottie.png">
 
-We utilised Lottie to convert the bespoke Jar animation into a JSON file, this is then rendered within React Native. Again, this was a new technology to us.
+We utilised the Lottie library (developed by AirBnB) to read the JSON file and render it in React Native. Again, this was a new technology to us.
 
 <img width="300" height="300" alt="Screenshot 2021-04-22 at 12 57 15" src="https://preview.redd.it/meg6nawssnb01.jpg?auto=webp&s=40df33d5a7d4456bf08f68785f2514a97d310d07">
 
