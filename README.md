@@ -56,7 +56,7 @@ We decided on Firebase as a lightweight cloud solution for our back end. We like
 
 <img width="100" alt="File:Adobe After Effects CC icon.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Adobe_After_Effects_CC_icon.svg/616px-Adobe_After_Effects_CC_icon.svg.png">
 
-We wanted to bring home the feeling of accomplishment with every new marble so we created a custom animation using Adobe After Effects. We then used the Bodymovin' plugin to convert the After Effects project into a JSON file which we could work with
+We wanted to bring home the feeling of accomplishment with every new marble so we created a custom animation using Adobe After Effects. We then used the Bodymovin' plugin to convert the After Effects project into a JSON file which we could work with.
 
 <img height="100" alt="Bodymovin logo" src="https://aescripts.com/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/1/2/1240x496_shadow_tn.png">
 
