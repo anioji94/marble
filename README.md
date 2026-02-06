@@ -144,6 +144,6 @@ Marble was developed by:
 - Aniruddh Ojha
 - Charlie Davis-Miller
 - Christine Chee
-- Jai Jalah Kumar
+- Jai Jalah
 - Maximilian Clarke
 - Sol Paek
